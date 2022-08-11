@@ -25,7 +25,7 @@ describe('Test todo-list creation', () => {
     // add value inside the input field
     user.type(getInputAddTodo(), 'My first to do');
     // emulate click on button 
-    user.click(getAddTodobutton());
+    user.click(getAddTodoButton());
     // check if the todo item is in the list
     const todoItem = screen.getByText(/My first to do/i);
     // check that todo item is in the list
@@ -45,7 +45,7 @@ describe('Test to-do item delete operation', () => {
 
 
 // return the instance to the addTodo button
-function getAddTodobutton() {
+function getAddTodoButton() {
   return screen.getByRole('button', { name: /Add Todo/i })
 }
 
