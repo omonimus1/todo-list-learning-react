@@ -12,3 +12,4 @@
 
 ### Dependencies
 * react-icon: ```npm install react-icons```
+* View the react icons: ```https://react-icons.github.io/react-icons/```
