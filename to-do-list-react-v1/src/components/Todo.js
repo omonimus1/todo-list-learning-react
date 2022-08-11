@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
-import { RiCloseCircleLine } from 'react-icons/ri';
-import { TiEdit } from 'react-icons/ti';
+import { RiCloseCircleLine } from 'react-icons/ri'; // delete icon
+import { TiEdit } from 'react-icons/ti';            // edit icon
 
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({
@@ -21,6 +21,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     return <TodoForm edit={edit} onSubmit={submitUpdate} />;
   }
 
+  // return every todo, with each single todo and id
   return todos.map((todo, index) => (
     <div
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}

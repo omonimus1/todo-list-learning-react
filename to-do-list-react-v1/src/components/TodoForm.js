@@ -5,21 +5,26 @@ function TodoForm(props) {
 
   const inputRef = useRef(null);
 
+  // Set the automatically focused input to the last input value 
+  // (so that user does not need to click on the input to edit)
   useEffect(() => {
     inputRef.current.focus();
   });
+
 
   const handleChange = e => {
     setInput(e.target.value);
   };
 
+
   const handleSubmit = e => {
     e.preventDefault();
-
+    // create a new Todo
     props.onSubmit({
       id: Math.floor(Math.random() * 10000),
       text: input
     });
+    // set input of the Form to empty string
     setInput('');
   };
 
@@ -28,7 +33,7 @@ function TodoForm(props) {
       {props.edit ? (
         <>
           <input
-            placeholder='Update your item'
+            placeholder=' todo'
             value={input}
             onChange={handleChange}
             name='text'
