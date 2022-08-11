@@ -5,9 +5,10 @@
 ### CREATE the project from scratch
 ``` create-react-app to-do-list-react-v1```
 
-### Run this project
+### Run and test the project
 * Clone the repository
 * Run the project from the root folder: ```npm start```
+* Run unit tests ```npm run test```
 
 ### Dependencies
 * react-icon: ```npm install react-icons```
