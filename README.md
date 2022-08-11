@@ -1,7 +1,6 @@
 ## Learning react project - TODO LIST
 
-* YB series: [https://www.youtube.com/watch?v=E1E08i2UJGI](https://www.youtube.com/watch?v=E1E08i2UJGI)
-* Codebase project related to the series: [https://github.com/briancodex/react-todo-app-v1](https://github.com/briancodex/react-todo-app-v1)
+[Vide the demo!](https://user-images.githubusercontent.com/23085146/184101045-b104e564-6f95-4d8e-a94f-f3e6fdad7b26.mov)
 
 ### CREATE the project from scratch
 ``` create-react-app to-do-list-react-v1```
@@ -13,3 +12,9 @@
 ### Dependencies
 * react-icon: ```npm install react-icons```
 * View the react icons: ```https://react-icons.github.io/react-icons/```
+
+### Learning resources
+* YB series: [https://www.youtube.com/watch?v=E1E08i2UJGI](https://www.youtube.com/watch?v=E1E08i2UJGI)
+
+Note: If you have zero prior knowledge of React ignore this youtube video, there is someone just writing code without explaining what react hooks are;
+I suggest you try out the [codeacademy free react course first.](https://www.codecademy.com/courses/react-101/)
