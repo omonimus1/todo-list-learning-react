@@ -19,3 +19,8 @@
 
 Note: If you have zero prior knowledge of React ignore this youtube video, there is someone just writing code without explaining what react hooks are;
 I suggest you try out the [codeacademy free react course first.](https://www.codecademy.com/courses/react-101/)
+
+
+
+## Apply for a mentorship session with me (get a 7 days free trial)
+<a href="https://mentorcruise.com/mentor/davidepollicino/"> <img src="https://cdn.mentorcruise.com/img/banner/navy-mentoring-badge.svg" width="240" alt="MentorCruise"> </a>
